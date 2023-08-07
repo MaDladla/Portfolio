@@ -1,0 +1,335 @@
+.header{background-color: black;
+transition: 0.3s;}
+
+.navigation{
+    display: flex;
+    height: 70px;
+  
+    width: 100%;
+    color: var(--white);
+}
+.nav--left{
+    width: 40%;
+}
+.nav--left h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.nav--left h1:hover{
+    padding-top: 19px;
+    padding-left: 19px;
+    color: var(--yellow);
+}
+.navigation .nav--right{
+    width: 60%;
+}
+.navigation .nav--right a{
+  
+padding: 30px 0 0 40px;
+float: left;
+
+font-size: 22px;
+color: var(--white);
+text-decoration: none;
+}
+
+
+
+.navigation .nav--right a:hover{
+
+    /* float: right;
+    */
+    font-size: 20px;
+    color: var(--white);  
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+ text-decoration-style: dotted;
+    
+    }
+.mob-nav{
+    height: 70px;
+    display: none;
+    width: 100%;
+}
+
+.mobile-left{
+    width: 50%;
+   
+}
+.mobile-left h2{
+   color: white;
+   padding-top: 20px;
+   padding-left: 10px;
+   
+}
+.mobile-left h2:hover{
+    color: var(--yellow);
+    padding-top: 20px;
+    padding-left: 10px;
+    
+ }
+ .mobile-right button{
+    width: 80px;
+    height: 50p;
+    color: var(--white);
+    background-color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left:150px;
+    border: none;
+ }
+ .mobile-link button{
+    width: 80px;
+    height: 50p;
+    color: var(--white);
+    background-color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left:20px;
+    border: none;
+ }
+.header .header__img{
+
+    background-color: black;
+    opacity: 0.2;
+}
+.header .header__info{
+    position: absolute;
+    color: var(--white);
+    margin-top: -460px;
+    margin-left: 730px;
+    margin-right: 80px;
+
+}
+.header__info h1{
+font-size: 70px
+
+}
+.header__info h3{
+
+color: var(--yellow);
+padding-top: 20px;
+font-size: 30px;
+}
+.header__info p{
+
+    
+    padding-top: 20px;
+    font-size: 18px;
+    }
+
+.aboutMe{
+    display: flex;
+    background-color: black;
+   height: 700px;
+    color: var(--white);
+}
+.aboutMe__picture{
+
+    width: 40%;
+}
+.aboutMe__picture .pic--frame{
+width: 250px;
+height: 350px;
+border: 5px solid var(--yellow);
+margin-top: 200px;
+margin-left: 200px;
+}
+.picture__pic{
+   position: absolute;
+    background-image: url(../img/WhatsApp\ Image\ 2023-07-27\ at\ 10.29.56.jpeg);
+    width: 250px;
+    height: 350px;
+margin-top: -400px;
+margin-left: 150px;
+/* margin-bottom: 50px; */
+border: 5px solid var(--white);
+ background-repeat: no-repeat;
+ object-fit: cover;
+ background-size: cover;
+ background-position: center center;
+
+}
+.aboutMe__info{
+    width: 60%;
+}
+.aboutMe__info h1
+{
+   padding-top: 100px;
+   font-size: 70px;
+   color: rgb(194, 190, 190,0.2);
+   font-weight: bold;
+}
+.aboutMe__info h3
+{
+    position: absolute;
+   margin-top: -45px;
+   margin-left: 35px;
+   font-size: 50px;
+   color:var(--yellow);
+opacity: 0.8;
+}
+.aboutMe__info p
+{
+   font-size: 18px;
+  padding-top: 40px;
+ padding-right: 50px;
+
+}
+.aboutMe__info button{
+
+    background-color:  var(--yellow);
+    border: 2px solid var(--yellow);
+    color: var(--black);
+    width: 200px;
+    height: 48px;
+    margin-top: 50px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border-radius: 0 5px 5px 5px;
+}
+.aboutMe__info button:hover{
+
+    background-color:  var(--yellow);
+    border: 2px solid var(--yellow);
+    color: var(--black);
+    width: 220px;
+    height: 48px;
+    margin-top: 50px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border-radius: 5px 5px 0px 5px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .navigation{
+        overflow-y: hidden;
+        display: none;
+    }
+    .nav--left{
+        width: 20%;
+    }
+    .nav--left h1{
+        padding-top: 30px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .navigation .nav--right a{
+  
+        padding: 30px 0 0 10px;
+      
+        font-size: 15px;
+        
+    }
+        
+        
+ .navigation .nav--right a:hover{ 
+            
+            font-size: 12px;
+        
+ }
+ .mob-nav{
+    display: flex;
+   
+  
+}
+.header .header__img{
+overflow-y: hidden;
+   background-color: var(--black);
+  opacity: 0.2;
+  width: 100%;
+  height: 400px;
+ }
+ .header .header__info{
+    position: absolute;
+    color: var(--white);
+    margin-top: -330px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+}
+.header__info h1{
+    font-size: 40px
+    
+    }
+    .header__info h3{
+    
+    color: var(--yellow);
+    padding-top: 10px;
+    font-size: 20px;
+    }
+    .header__info p{
+    
+        
+        padding-top: 20px;
+        font-size: 13px;
+        }
+    
+
+        .aboutMe{
+            display: flex;
+            flex-direction: column;
+            background-color: var(--black);
+           height: 1200px;
+            color: var(--white);
+        }
+        .aboutMe__picture{
+
+            width: 100%;
+            height: 900px;
+        }
+        .aboutMe__picture .pic--frame{
+          
+            margin-top: 150px;
+            margin-left: 120px;
+            }
+            .picture__pic{
+              
+            margin-top: -420px;
+            margin-left: 60px;
+           
+            }
+        .aboutMe__info{
+            width: 100%;
+         height: 750px;
+        }
+ .aboutMe__info h1
+{
+   padding-top: 20px;
+   font-size: 70px;
+  padding-left: 30px;
+}
+.aboutMe__info h3
+{
+    
+  
+   margin-left: 65px;
+ 
+}
+.aboutMe__info p
+{
+   font-size: 15px;
+padding-left: 20px;
+
+}
+.aboutMe__info button{
+
+    width: 180px;
+    height: 48px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+
+.aboutMe__info button:hover{
+
+  
+    width: 200px;
+    height: 48px;
+
+}   
+}
+

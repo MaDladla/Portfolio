@@ -1,0 +1,45 @@
+.header label{
+    width: 80px;
+    height: 30px;
+    /* margin-left: 15px; */
+    position: relative;
+    display: block;
+    background-color: var(--white);
+    border-radius: 100px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: 0.3s;
+}
+label:after{
+    content: "";
+    width: 30px;
+    height: 26px;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background-color: var(--yellow);
+    border-radius: 80px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    transform: 0.3s;
+}
+.header input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.header input:checked + label{
+
+    background-color: #242424;
+}
+.header input:checked + label:after{
+    left:70px;
+    transform: translateX(-100%);
+    background-color: linear-gradient(180deg, #777,#3a3a3a);
+}
+.header label:active:after{
+    width: 35px;
+}
+.header input:checked + label + .header{
+    background: var(--white);
+    color: black;
+}

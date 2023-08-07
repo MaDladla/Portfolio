@@ -1,0 +1,84 @@
+.portfolio h5{
+    text-align: center;
+    color: var(--yellow);
+    font-weight: 100;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.portfolio h1{
+    text-align: center;
+    color: var(--white);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-size: 60px;
+}
+.portfolio h1 span{
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
+ text-decoration-style: dotted;;
+}
+.portfolio .portfolio__cont{
+
+    display: flex;
+    margin-left: 180px;
+}
+.portfolio__cont .cont__info{
+
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    background-color: #212428;
+    border-radius: 10px;
+    box-shadow: -4px 1px 28px 1px rgba(32,30,30,0.79);
+    -webkit-box-shadow: -4px 1px 28px 1px rgba(32,30,30,0.79);
+    -moz-box-shadow: -4px 1px 28px 1px rgba(32,30,30,0.79);
+}
+.portfolio__cont .cont__info:hover{
+
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    background-color: #212428;
+    border-radius: 10px;
+    box-shadow: -4px 1px 28px 1px rgba(32,30,30,0.79);
+    -webkit-box-shadow: -4px 1px 28px 1px rgba(32,30,30,0.79);
+    -moz-box-shadow: -4px 1px 28px 1px rgba(32,30,30,0.79);
+
+    background: hsla(214, 10%, 14%, 1);
+
+background: linear-gradient(225deg, hsla(214, 10%, 14%, 1) 0%, hsla(218, 9%, 17%, 1) 50%, hsla(214, 10%, 14%, 1) 100%);
+
+background: -moz-linear-gradient(225deg, hsla(214, 10%, 14%, 1) 0%, hsla(218, 9%, 17%, 1) 50%, hsla(214, 10%, 14%, 1) 100%);
+
+background: -webkit-linear-gradient(225deg, hsla(214, 10%, 14%, 1) 0%, hsla(218, 9%, 17%, 1) 50%, hsla(214, 10%, 14%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#212428", endColorstr="#272A2F", GradientType=1 );
+}
+
+.port__link{
+    text-decoration: none;
+}
+.portfolio__cont .cont__info img{
+    margin: 25px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    transform-origin: 50% 50%;
+}
+.portfolio__cont .cont__info:hover img{
+
+    transform: scale(1.1);
+    width: 300px;
+    height: 220px;  
+}
+.portfolio__cont .cont__info h3{
+    padding-top: 10px;
+   text-align: center;
+   font-size: 25px;
+   color: var(--yellow);
+}
+.portfolio__cont .cont__info:hover h3{
+
+   color: var(--white);
+}

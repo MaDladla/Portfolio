@@ -1,0 +1,267 @@
+.back--mission{
+    position: fixed;
+    background-image: url(../img/download\ \(1\).png);
+    width: 100%;
+    height: 100vh;
+top: 0px;
+/* margin-bottom: 50px; */
+z-index: -999999999;
+ background-repeat: no-repeat;
+ object-fit: cover;
+ background-size: cover;
+ background-position: center center;
+}
+.mission_info h1{
+
+color: var(--white);
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+font-size: 60px;
+}
+.mission_info h1 span{
+
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
+ text-decoration-style: dotted;
+
+}
+
+.mission_info p{
+
+    color: var(--white);
+ 
+    padding: 20px 100px 10px 100px;
+
+    font-size:18px;
+    }
+/* .slide-in-from-right {
+  animation: 1.5s ease-out 0s 1 slideInFromRight forwards;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
+.fadeInLeft{
+
+-webkit-animation: fadInLeft 1.2s both;
+-moz-animation: fadInLeft 1.2s both;
+-o-animation: fadInLeft 1.2s both;
+animation: fadInLeft 1.2s both;
+}
+.fadeInTop{
+
+    -webkit-animation: fadInLeft 1.2s both;
+    -moz-animation: fadInLeft 1.2s both;
+    -o-animation: fadInLeft 1.2s both;
+    animation: fadInLeft 1.2s both;
+    }
+.skills{
+    background-color: var(--black);
+    margin-top: 110px;
+}
+.skill--one #shade{
+
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    transition: 0.7s ease-in;
+}
+.skills h1{
+
+    color: var(--white);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 60px;
+}
+.skills h1 span{
+
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
+ text-decoration-style: dotted;
+
+}
+.skills .skills__one{
+
+    display: flex;
+    margin-top: 130px;
+    margin-left: 200px;
+}
+.skills__one .skill--one{
+
+    background-color:  rgb(35, 35, 35);
+    width: 300px;
+    height: 200px;
+    margin-left: 215px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+/* .skills__one .skill--one #shade{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 58, 58);
+    transition: 0.7s ease-in;
+} */
+.skills__one .skill--shade{
+
+    background-color: rgb(194, 141, 19, 0.4);
+    width: 170px;
+    height: 160px;
+    margin-top: -20px;
+    margin-left: -20px;
+    
+}
+.skill--shade .shade--in{
+   position: absolute;
+    background-color:  rgb(35, 35, 35);
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+.skills i{
+font-size: 40px;
+
+color: var(--white);
+padding-top:15px;
+padding-left: 126px;
+}
+.skills h3{
+    font-size: 20px;
+    text-align: center;
+    color: var(--yellow);
+    padding-top:20px;
+    /* padding-left: 118px; */
+}
+    .skills p{
+        font-size: 16px;
+        text-align: center;
+        color: var(--white);
+        padding-top:20px;
+        /* padding-left: 118px; */
+    }  
+.skills__one .skill--last{
+
+    background-color: rgb(35, 35, 35);
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+/* 2 */
+.skills .skills__two{
+
+    display: flex;
+    /* margin-top: 130px; */
+    margin-left: 170px;
+    margin-bottom: 120px;
+   
+}
+.skills__two .skill--two{
+
+    background-color:  rgb(35, 35, 35);
+    width: 300px;
+    height: 200px;
+    margin-left: 220px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.skills__two .two--shade{
+
+    background-color: rgb(194, 141, 19, 0.4);
+    width: 170px;
+    height: 160px;
+   
+    margin-left: 195px;
+    margin-top: 75px;
+    
+}
+.two--shade .shade--in2{
+   position: absolute;
+    background-color:  rgb(35, 35, 35);
+    width: 300px;
+    height: 200px;
+    margin-top: -55px;
+    margin-left: -150px;
+    border-radius: 8px;
+}
+.skills__two .skill--two{
+
+    background-color: rgb(35, 35, 35);
+    width: 300px;
+    height: 200px;
+    margin-left: 49px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .mission_info h1{
+
+    
+        font-size: 40px;
+        } 
+
+
+        .mission_info p{
+
+           
+         
+            padding: 10px 100px 10px 60px;
+        
+            font-size:15px;
+            }
+            .skills{
+               
+                margin-top: 50px;
+            }
+            .skills h1{
+            
+                text-align: center;
+                font-size: 40px;
+                padding-bottom: 10px;
+              
+            }    
+            .skills .skills__one{
+
+                display: flex;
+                flex-direction: column;
+                margin-top: 130px;
+                margin-left: 50px;
+            }  
+            .skills__one .skill--one{
+
+              
+                margin-left: 20px;
+                margin-top: 100px;
+              
+            }
+            .skills__one .skill--last{
+
+               
+                margin-left: 20px;
+              
+            }
+            .skills .skills__two{
+
+                display: flex;
+               flex-direction: column;
+                margin-left: 20px;
+                margin-bottom: 120px;
+               
+            }
+}

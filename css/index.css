@@ -1,0 +1,88 @@
+@import url("lightMode.css");
+@import url("header.css");
+@import url("mission.css");
+@import url("resume.css");
+@import url("portfolio.css");
+@import url("contact.css");
+@import url("popup.css");
+
+*{
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   scroll-behavior: smooth;
+
+}
+body{
+
+    /* font-family: 'Inter', sans-serif; */
+    /* background-color: var(--navy); */
+    /* color: black; */
+    background-color: var(--black);
+}
+:root{
+
+    --yellow:rgb(194, 141, 19);
+    --white: white;
+    --black: black;
+}
+@media only screen and (min-width: 1800px) {
+
+    .skills .skills__one{
+
+        display: flex;
+        margin-top: 130px;
+        margin-left: 350px;
+    }
+
+    .skills .skills__two{
+
+        display: flex;
+        /* margin-top: 130px; */
+        margin-left: 320px;
+        margin-bottom: 120px;
+       
+    }
+    .contact .contact__head p {
+        color: white;
+        /* text-align: center; */
+        padding-left: 800px;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .container__right{
+        position: absolute;
+            background-color: #37393c;
+            width: 350px;
+          
+            height: 550px;
+            left: 300px;
+            border-radius:  10px ;
+            margin-top: 180px;
+            box-shadow: 5px 3px 17px 5px rgba(32,30,30,0.6);
+            -webkit-box-shadow: 5px 3px 17px 5px rgba(32,30,30,0.6);
+            -moz-box-shadow: 5px 3px 17px 5px rgba(32,30,30,0.6);
+        
+       
+        }
+        .contact .contact__container{
+
+            margin: 150px 300px 100px 500px;
+            background-color:#37393c;
+        
+           
+            border-radius: 5px;
+            width: 900px;
+            height: 600px;
+          
+        }
+
+        .portfolio .portfolio__cont{
+
+            display: flex;
+            margin-left: 300px;
+        }
+
+}
+

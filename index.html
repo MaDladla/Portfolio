@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+<div class="header">
+
+    <div class="navigation">
+        <div class="nav--left">
+            <h1>Cynthia</h1>
+        </div>
+        <div class="nav--right">
+        <a href="#about">About Me</a>
+        <a href="#skill">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+        <!-- <input type="checkbox" id="toggle"/>
+        <label for="lightmode-toggle"></label> -->
+    </div>
+
+  </div>
+   
+      <div class="mob-nav">
+    <div class="mobile-left">
+      <h2>Cynthia</h2>
+    </div>
+    <div class="mobile-right">
+     <button onclick="showNav('mobileNav')">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+     </button>
+
+    </div>
+  </div>
+      <div class="mobile-links" id="mobileNav">
+        <div class="mob-link">
+        <button onclick="hideNav('mobileNav')"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <a href="#about">About Me</a>
+        <a href="#skill">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+      </div>
+    
+ 
+ 
+<div class="header__img">
+<img src="img/istockphoto-1035462384-612x612.jpg" alt="" srcset="" width="100%" height="650px">
+
+</div>
+<div class="header__info">
+  <h3>Hi I'am</h3>
+<h1>CYNTHIA LETTY <br> DLADLA </h1>
+<h3>Fulstack Developer</h3>
+                    <p>I'm an experienced software engineer who constantly seeks out innovative solutions to everyday problems. I recently completed my diploma in Computer Systems Engineering from Tshwane University of technology with first division. I have excellent knowledge of coding languages and great coding skills</p>
+</div>
+
+</div>
+
+<div class="aboutMe" id="about">
+<div class="aboutMe__picture">
+<div class="pic--frame"></div>
+<div class="picture__pic"></div>
+</div>
+<div class="aboutMe__info">
+<h1>About Me</h1>
+<h3>About Me</h3>
+<p class="fadeInLeft">I am a highly skilled software developer with expertise in multiple programming languages, including Python, Java, and JavaScript. My passion for problem-solving drives me to tackle complex challenges and deliver elegant solutions. With a strong technical foundation, I have successfully completed diverse projects, ranging from web development to machine learning.</p>
+<p class="card">Throughout my journey, I have honed my ability to collaborate effectively within a team, ensuring seamless project execution. Continuous learning is an integral part of my approach, enabling me to stay ahead in this ever-evolving field. I take immense pride in my attention to detail, implementing robust testing and quality assurance practices to deliver reliable software.</p>
+
+
+<div class="popup" id="popup">
+    <h4>More about me</h4>
+  <p><span>Date of birth </span> <br> • 199* January 11
+  </p>
+  <p><span>Hobbies </span> <br> • Coding <br>
+    • Netball <br>
+    • Soccer 
+  </p>
+  <p><span>Languages </span> <br> • English<br>
+    • Zulu <br>
+    • Tsonga 
+  </p>
+  
+  <button onclick="hide('popup')">Close</button>
+</div>
+
+<!-- 
+<button class="button" href="#" onclick="show('popupk')">Button</button>
+
+<div class="popupk" id="popupk">
+  <p>lalalalalal!</p>
+  <p>Overlay uses <b>:before</b> and <b>:after</b> pseudo-classes.</p>
+  <p>Website will still remain visible behind this popup.</p>
+  <a href="#" onclick="hide('popupk')">Close</a>
+</div> -->
+<button class="button" href="#" onclick="show('popup')">View more</button>
+</div>
+
+
+</div>
+
+<div class="back--mission">
+
+
+</div>
+<div class="mission_info">
+<h1>My <span>Mission</span></h1>
+<p class="card">To leverage technology and innovation as a force for positive change, empowering individuals and businesses with user-centric, scalable, and secure software solutions. I am committed to continuous learning, embracing emerging technologies, and collaborating with diverse teams to create impactful software that enriches lives and drives sustainable progress</p>
+<p>My mission is to build intuitive and accessible software applications that solve real-world problems, enhancing the way people interact with technology. By focusing on user experience and human-centered design, I aim to create inclusive solutions that cater to a wide range of users, irrespective of their age, abilities, or backgrounds.</p>
+</div>
+<div class="skills" id="skill">
+    <h1>My <span>Skills</span></h1>
+<div class="skills__one">
+    <div class="skill--shade" id="shade">
+<div class="shade--in">
+    <i class="fa fa-book" aria-hidden="true"></i>
+    <h3>Languages</h3>
+    <p>Html&Css, JavaScript, Java, Python, C#, C++, SQL </p>
+</div>
+</div>
+<div class="skill--one" id="shade">
+    <i class="fa fa-unlock" aria-hidden="true"></i>
+    <h3>Problem solving</h3>
+    <p>Logical thinking, attention to detail, and analytical skills</p>
+</div>
+<div class="skill--last">
+    <i class="fa fa-list" aria-hidden="true"></i>
+    <h3>Algorithm and Data Structures</h3>
+    <p>Arrays, linked lists, trees, graphs, and algorithms</p>
+</div>
+</div>
+<div class="skills__two">
+
+    
+        <div class="skill--two">
+            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+            <h3>Version Control</h3>
+            <p> Track changes, manage codebase efficiently, and work seamlessly in teams</p>
+        </div>
+        <div class="skill--two">
+            <i class="fa fa-cogs" aria-hidden="true"></i>
+            <h3>Testing and Debugging</h3> 
+            <p>Writing, analyzing, running tests, debug and fixing issues</p>
+        </div>
+        <div class="two--shade">
+            <div class="shade--in2">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <h3>collaborating</h3>
+                <p>Ability to work in teams, alone, and being a team leader</p>
+            </div>
+            </div>
+</div>
+
+</div>
+<div class="resume" id="resume">
+
+<h5>2+ YEARS OF EXPERIENCE</h5>
+<h1>My <span>Resume</span></h1>
+
+<div class="resume__info">
+    <hr>
+    <div class="resume--left">
+        <p></p>
+        <h3>Education Quality</h3>
+     <div class="left__divs">
+    <div class="div--circle"></div>
+     <div class="circle--line"></div>
+      <div class="divs-info">
+        <h1>Siyifunile Secondary School</h1>
+        <h6>2012-2016</h6>
+        <div class="rates">68.5</div>
+        <div class="info--line"></div>
+        <p>Matric (Maths and Science)</p>
+        <p>Completed with admission to Bachelors Degree</p>
+      </div>
+     </div>  
+
+     <div class="left__divs2">
+        <div class="div--circle2" id="circle"></div>
+         <div class="circle--line2"></div>
+          <div class="divs-info2">
+            <h1>Tshwane University of Technology</h1>
+            <h6>2019-2023</h6>
+            <div class="rates">71.3</div>
+            <div class="info--line2"></div>
+            <p>Diploma in computer systems engineering</p>
+            <p>Scheduled to graduate October 2023</p>
+          </div>
+         </div>  
+
+         <h3 id="project">Completed Projects</h3>
+
+         <div class="left__divs2">
+            <div class="div--circle2"></div>
+             <div class="circle--line2"></div>
+              <div class="divs-info2">
+                <h1>Website for Adom Technologies</h1>
+                <h6>2022</h6>
+                <div class="info--line2"></div>
+                <p>The website is up and running</p>
+                <p>www.adomtechnologies.co.za</p>
+              </div>
+             </div>  
+
+             <div class="left__divs2">
+                <div class="div--circle2"></div>
+                 <div class="circle--line2"></div>
+                  <div class="divs-info2">
+                    <h1>Website for Thogwa Medicals</h1>
+                    <h6>2023</h6>
+                    <div class="info--line2"></div>
+                    <p>The website is up and running</p>
+                    <p>https://t-mabena.web.app</p>
+                  </div>
+                 </div>  
+
+    </div>
+    <hr>
+    <div class="resume--right">
+
+      
+
+        <!-- <h2>2019 - 2023</h2> -->
+        <h3>Experience</h3>
+     <div class="left__divs">
+    <div class="div--circle"></div>
+     <div class="circle--line"></div>
+      <div class="divs-info">
+        <h1>Deviare</h1>
+        <h6>2021 Oct - 2022-Feb</h6>
+        <div class="info--line"></div>
+        
+        <p>Data Analytics and Power bi</p>
+      </div>
+     </div>  
+
+     <div class="left__divs2">
+        <div class="div--circle2"></div>
+         <div class="circle--line2"></div>
+          <div class="divs-info2">
+            <h1>Innovation Hub (mlab)</h1>
+            <h6>2022 Mar - 2022 July</h6>
+            <div class="info--line2"></div>
+            
+            <p>Software Development</p>
+          </div>
+         </div>  
+
+      
+
+         <div class="left__divs2">
+            <div class="div--circle2"></div>
+             <div class="circle--line2"></div>
+              <div class="divs-info2">
+                <h1>Adom Technologies</h1>
+                <h6>2022 Aug - 2023 May</h6>
+                <div class="info--line2"></div>
+              
+                <p>Software Development</p>
+              </div>
+             </div>  
+
+             <div class="left__divs2">
+                <div class="div--circle2"></div>
+                 <div class="circle--line2"></div>
+                  <div class="divs-info2">
+                    <h1>Wits Incubator (Tshimologong)</h1>
+                    <h6>2023 July - Present</h6>
+                    <div class="info--line2"></div>
+                    <p>Software Development</p>
+                    <p>Currently working there</p>
+                  </div>
+                 </div>  
+
+    </div>
+</div>
+
+</div>
+
+<div class="portfolio" id="portfolio">
+
+  <h5>YOU CAN VISITE MY PORTFOLIO</h5>
+<h1>My <span>Portfolio</span></h1>
+
+
+<div class="portfolio__cont">
+
+  <a href="https://todoist.com/" class="port__link">
+  <div class="cont__info">
+  <img src="img/960x0.webp" alt="" srcset="" width="300" height="220">
+  <h3>To do list web</h3>
+</div>
+</a>
+
+<a href="https://www.adomtechnologies.co.za/" class="port__link">
+  <div class="cont__info" onclick="adom()">
+  <img src="img/download (3).png" alt="" srcset="" width="300" height="220">
+  <h3>Adom technologies web</h3>
+</div>
+</a>
+
+<a href="https://t-mabena.web.app" class="port__link">
+ <div class="cont__info">
+  <img src="img/WhatsApp Image 2023-08-02 at 13.47.23.jpeg" alt="" srcset="" width="300" height="220">
+  <h3>Thogwa Medicals web</h3>
+ </div>
+</a>
+
+</div>
+
+
+
+<div class="portfolio__cont">
+
+   <a href="https://www.travelassist.io/en/" class="port__link"></a>
+     <div class="cont__info">
+    <img src="img/cc13160e5fd9b900fd717d06a8683bde.png" alt="" srcset="" width="300" height="220">
+    <h3>Travelling assist</h3>
+    </div>
+   </a>
+
+  <a href="https://www.sales-tracker.in/" class="port__link">
+  <div class="cont__info">
+  <img src="img/412ab683037e760f0b64130993e118ea.jpg" alt="" srcset="" width="300" height="220">
+  <h3>Sale tracking app</h3>
+  </div>
+  </a>
+
+  <a href="https://www.south-african-hotels.com/" class="port__link">
+  <div class="cont__info">
+    <img src="img/luviana-hotel-booking-wordpress-theme-1024x748.jpg" alt="" srcset="" width="300" height="220">
+    <h3>Hotel booking web</h3>
+  </div>
+</a>
+  
+</div>
+</div>
+
+
+
+<div class="contact" id="contact">
+    <div class="contact__head">
+        <h1>Get in <span>Touch</span></h1>
+        <p>Feel free to drop me a line below</p>
+    </div>
+
+<div class="container__right">
+    <i class="fa fa-phone" aria-hidden="true"></i>
+    <h2>Get in touch</h2>
+    <p><i class="fa fa-map-marker" aria-hidden="true"></i> 49 Noordrand Rd, Kempton Park, 1620</p>
+<p><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:cynthiadladla4@gmail.com">cynthiadladla4@gmail.com</a></p>
+<p><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:0729595846">0729595846</a></p>
+<p> <i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:0728735182">0728735182</a></p>
+<div class="details--links">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-instagram"></i>
+</div>
+</div>
+
+<div class="contact__container" >
+  <form  action="https://formspree.io/f/xjvqgavp"
+  method="POST">
+<h4>Contact Me</h4>
+<p>Enter your name</p>
+<input type="text" name="name" required>
+<p>Enter your number</p>
+<input type="text" name="number" required>
+<p>Enter a valid email</p>
+<input type="email" name="email" required>
+<p>Type your messege</p>
+<input class="message" type="text" id="" cols="30" rows="10" name="messege" required></input>
+<button type="submit">Send</button>
+</form>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.9028596568714!2d28.234909975334773!3d-26.10208947713974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9514ee482e0279%3A0x4bce41ae0c3b85ae!2s49%20Noordrand%20Rd%2C%20Kempton%20Park%2C%201620!5e0!3m2!1sen!2sza!4v1690205097226!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="footer">
+
+<div class="copy">
+    <p>© Copyright 2023 Cynthia - All Rights Reserved</p>
+</div>
+</div>
+
+<script src="https://kit.fontawesome.com/991fa081b6.js" crossorigin="anonymous"></script>
+<script src="javascript/script.js"></script>
+<script src="javascript/mode.js"></script>
+<script src="javascript/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+.popup {
+    display: none;
+    position: fixed;
+    /* padding: 10px; */
+    width: 600px;
+    left: 20%;
+    margin-left: -150px;
+    height: 500px;
+    top: 35%;
+    margin-top: -100px;
+    background: rgba(0,0,0,0.9);
+
+    border:2px solid rgb(194, 141, 19,0.8);
+    z-index: 20;
+  }
+  .popup h4{
+ text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+    color:rgb(194, 141, 19,0.8);
+  }
+  .popup p{
+    padding-left: 20px;
+  }
+  .popup p span{
+    color: rgb(141, 139, 139);
+  }
+  .popup button{
+margin-left: 200px;
+  }
+  #popup:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -2;
+  }
+  
+  #popup:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:rgba(0,0,0,0.9);
+ 
+    z-index: -1;
+    width: 400px;
+  }
+
+
+
+  .mobile-links {
+    display: none;
+    position: fixed;
+    /* padding: 10px; */
+    width: 300px;
+    left: 37%;
+    margin-left: -150px;
+    height: 350px;
+    top: 15%;
+    margin-top: -100px;
+    background: rgba(0,0,0,0.9);
+
+    border:2px solid rgba(0,0,0,0.9);
+    z-index: 20;
+  }
+  .mobile-links .mob-link{
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-links .mob-link button{
+  width: 50px;
+  height: 50px;
+  color: var(--white);
+  background-color: var(--black);
+  border: none;
+  font-size: 35px;
+  margin-left: 230px;
+  }
+  .mobile-links .mob-link a{
+    padding: 10px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .mobile-links .mob-link a:hover{
+    padding: 15px;
+    color: var(--white);
+
+    font-size: 25px;   
+     color: var(--white);  
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+ text-decoration-style: dotted;
+  }
+  #mobileNav:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -2;
+  }
+  
+  #mobileNav:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:rgba(0,0,0,0.9);
+ 
+    z-index: -1;
+    width: 400px;
+  }
+
+
+  @media only screen and (max-width: 700px) {
+
+    .popup {
+    
+      width: 310px;
+      left: 40%;
+      margin-left: -150px;
+      height: 500px;
+      top: 20%;
+    
+    }
+    .popup button{
+      margin-left: 50px;
+        }
+  }
+  
+  
